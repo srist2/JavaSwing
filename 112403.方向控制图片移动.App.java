@@ -60,9 +60,10 @@ public class App {
         myPanel.add(label_airplane);
         myPanel.add(label_bg);
 
+        frame.setTitle("多功能土豆的飞机大战");
         frame.setContentPane(myPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setBounds(100, 100, 500, 900);
+        frame.setBounds(100, 100, 512, 720);
         //frame.pack();
         frame.setVisible(true);
     }
